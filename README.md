@@ -10,3 +10,7 @@ Test out webpack
 - Watch mode
 	- In command line type "webpack --watch" will take it to watch mode
     - Or in config set "watch: true"
+- Running webpack with webpack-dev-server
+	- install "webpack", "webpack-dev-server" npm packages as dev dependancies
+    - put this to scripts in package.json ["start": "webpack-dev-server --inline --progress --port 8080"]
+    - run npm start in command line
