@@ -14,3 +14,5 @@ Test out webpack
 	- install "webpack", "webpack-dev-server" npm packages as dev dependancies
     - put this to scripts in package.json ["start": "webpack-dev-server --inline --progress --port 8080"]
     - run npm start in command line
+- Webpack prod
+	- give the following command "npm run build"
