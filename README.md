@@ -7,3 +7,6 @@ Test out webpack
 - we add a config file to webpack to give it it's settings
 	- A config file in webpack is a commonjs module
 	- After we have a config file we can use just the webpack command to build the app.
+- Watch mode
+	- In command line type "webpack --watch" will take it to watch mode
+    - Or in config set "watch: true"
