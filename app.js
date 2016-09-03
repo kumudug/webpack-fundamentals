@@ -1,3 +1,5 @@
+require('./login');
+
 document.write("Webpack fundementals app");
 
 console.log('App loaded');
