@@ -2,7 +2,7 @@ var path = require('path'); //built in module in node
 
 module.exports = {
     context: path.resolve('js'), //sets a relative root directory for entry key
-    entry: ["./utils", "./app.js"],
+    entry: ["./utils", "./app"],
     output: {
         path: path.resolve('build/js'),
         publicPath: '/public/assets/js', //for webpack-dev-server. it will serve build/js folder into the public path
