@@ -24,6 +24,8 @@
     "css-loader": "^0.25.0",
     "jshint": "^2.9.3",
     "jshint-loader": "^0.8.3",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
     "node-libs-browser": "^1.0.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2",
