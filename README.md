@@ -17,3 +17,5 @@ Test out webpack
 - Webpack prod
 	- give the following command "npm run build"
 - After building for prod instead of running webpack dev server run "npm run startprod". [check package.json]
+- For debugging put -d flag. You can debug individual files 
+- To auto refresh browser use --inline flag with webpack
