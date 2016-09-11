@@ -28,6 +28,11 @@ module.exports = {
                 test: /\.less$/, //what files to run through the loader
                 exclude: /node_modules/,
                 loader: extractTextPlugin.extract("style-loader", "css-loader!autoprefixer-loader!less-loader") //name of loader. check the package.json. This is gonna first run style-loader in css files and then it will run css-loader
+            },
+            {
+                test: /\.(png|jpg)$/,
+                exclude: /node_modules/,
+                loader: 'url-loader?limit=100000'
             }
         ]
     },
